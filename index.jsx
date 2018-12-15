@@ -3,13 +3,14 @@ import ReactDOM from 'react-dom';
 import YButton from '@ybq/ui/dist/button';
 import YIcon from '@ybq/ui/dist/icon';
 import '@ybq/ui/dist/button/index.css';
+import '@ybq/ui/dist/icon/index.css';
 import ZBtn from 'zent/lib/button';
 import Icon from 'zent/lib/icon';
 import Stage from './components/stage/index.jsx';
 import 'zent/css/index.css';
 import './style.less';
 
-console.info(12)
+console.info(123)
 console.info(YIcon)
 console.info(Icon)
 
@@ -18,7 +19,7 @@ class Test extends Component {
     return <div>
       <Stage name="ybq">
         <YButton></YButton>
-        <YButton>按钮</YButton>
+        <YButton className="abc" onClick={e => console.info(`btn click`, e)}>按钮</YButton>
         <YButton>按钮钮</YButton>
         <YButton><span>按</span><span>钮</span></YButton>
 
@@ -43,8 +44,8 @@ class Test extends Component {
           <YButton href="https://youzan.com">有赞首页</YButton>
           <YButton href="https://youzan.com" target="_blank">新窗口打开</YButton>
           <YButton icon="search">搜索</YButton>
-          {/* <YButton><YIcon type="check" />保存</YButton> */}
-          {/* <YButton>下一步<YIcon type="right" /></YButton> */}
+          <YButton><YIcon type="check" className="iii" />保存</YButton>
+          <YButton>下一步<YIcon type="next" /></YButton>
         </section>
 
         <section className="section">
@@ -74,7 +75,7 @@ class Test extends Component {
 
       <Stage name="zent">
         <ZBtn></ZBtn>
-        <ZBtn>按钮</ZBtn>
+        <ZBtn onClick={e => console.info(`btn click`, e)}>按钮</ZBtn>
         <ZBtn>按钮钮</ZBtn>
         <ZBtn><span>按</span><span>钮</span></ZBtn>
 
@@ -99,8 +100,8 @@ class Test extends Component {
           <ZBtn href="https://youzan.com">有赞首页</ZBtn>
           <ZBtn href="https://youzan.com" target="blank">新窗口打开</ZBtn>
           <ZBtn icon="search">搜索</ZBtn>
-          {/* <ZBtn><Icon type="check" />保存</ZBtn> */}
-          {/* <ZBtn>下一步<Icon type="right" /></ZBtn> */}
+          <ZBtn><YIcon type="check" />保存</ZBtn>
+          <ZBtn>下一步<Icon type="right" /></ZBtn>
         </section>
 
         <section className="section">
