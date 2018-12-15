@@ -41,8 +41,8 @@ class Test extends Component {
           <YButton size="small">小号按钮</YButton>
           <YButton bordered={false} type="primary">无边框</YButton>
           <YButton href="">空链接</YButton>
-          <YButton href="https://youzan.com">有赞首页</YButton>
-          <YButton href="https://youzan.com" target="_blank">新窗口打开</YButton>
+          <YButton href="https://baidu.com">百度首页</YButton>
+          <YButton href="https://baidu.com" target="_blank">新窗口打开</YButton>
           <YButton icon="search">搜索</YButton>
           <YButton><YIcon type="check" className="iii" />保存</YButton>
           <YButton>下一步<YIcon type="next" /></YButton>
@@ -97,8 +97,8 @@ class Test extends Component {
           <ZBtn size="small">小号按钮</ZBtn>
           <ZBtn bordered={false} type="primary">无边框</ZBtn>
           <ZBtn href="">空链接</ZBtn>
-          <ZBtn href="https://youzan.com">有赞首页</ZBtn>
-          <ZBtn href="https://youzan.com" target="blank">新窗口打开</ZBtn>
+          <ZBtn href="https://baidu.com">百度首页</ZBtn>
+          <ZBtn href="https://baidu.com" target="blank">新窗口打开</ZBtn>
           <ZBtn icon="search">搜索</ZBtn>
           <ZBtn><YIcon type="check" />保存</ZBtn>
           <ZBtn>下一步<Icon type="right" /></ZBtn>
