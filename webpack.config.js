@@ -9,7 +9,7 @@ module.exports = {
   },
   devtool: 'source-map',
   resolve: {
-    extensions: [ '.js', 'jsx', '.css', '.less' ],
+    extensions: [ '.js', '.jsx', '.css', '.less' ],
   },
   output: {
     filename: '[name].js',
