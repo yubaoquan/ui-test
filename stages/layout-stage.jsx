@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Stage from './components/stage';
+import Stage from '../components/stage';
 import Layout from 'zent/lib/layout';
 import YLayout from '@ybq/ui/dist/layout';
 import '@ybq/ui/dist/layout/index.css';

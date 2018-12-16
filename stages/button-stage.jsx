@@ -5,7 +5,7 @@ import '@ybq/ui/dist/button/index.css';
 import '@ybq/ui/dist/icon/index.css';
 import ZBtn from 'zent/lib/button';
 import Icon from 'zent/lib/icon';
-import Stage from './components/stage/index';
+import Stage from '../components/stage/index';
 
 class ButtonStage extends Component {
   render() {
