@@ -20,7 +20,7 @@ class Test extends Component {
       <Stage name="ybq">
         <YButton></YButton>
         <YButton className="abc" onClick={e => console.info(`btn click`, e)}>按钮</YButton>
-        <YButton>按钮钮</YButton>
+        <YButton htmlType="xxx">按钮钮</YButton>
         <YButton><span>按</span><span>钮</span></YButton>
 
         <section className="section">
@@ -70,6 +70,19 @@ class Test extends Component {
             <YButton type="primary" icon="share">分享</YButton>
             <YButton type="primary" icon="download">下载</YButton>
           </YButton.Group>
+        </section>
+
+        <section className="section">
+          <YButton prefix="jiuye">change prefix</YButton>
+          <YButton prefix="jiuye" style={{color: 'red'}}>change prefix</YButton>
+        </section>
+
+        <section className="section">
+          <YButton.Group prefix="foo" className="bar" style={{opacity: .5}}>
+            <YButton type="primary" icon="share">分享</YButton>
+            <YButton type="primary" icon="download">下载</YButton>
+          </YButton.Group>
+          <YButton block >block btn</YButton>
         </section>
       </Stage>
 
@@ -126,6 +139,19 @@ class Test extends Component {
             <ZBtn type="primary" icon="share">分享</ZBtn>
             <ZBtn type="primary" icon="download">下载</ZBtn>
           </ZBtn.Group>
+        </section>
+
+        <section className="section">
+          <ZBtn prefix="jiuye">change prefix</ZBtn>
+          <ZBtn prefix="jiuye" style={{color: 'red'}}>change prefix</ZBtn>
+        </section>
+
+        <section className="section">
+          <ZBtn.Group prefix="foo" className="bar" style={{opacity: .5}}>
+            <ZBtn type="primary" icon="share">分享</ZBtn>
+            <ZBtn type="primary" icon="download">下载</ZBtn>
+          </ZBtn.Group>
+          <ZBtn block >block btn</ZBtn>
         </section>
       </Stage>
     </div>
