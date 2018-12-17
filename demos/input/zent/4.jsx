@@ -17,7 +17,7 @@ class ZentInputDemo1 extends Component {
         type="textarea"
         value={value}
         onChange={this.handleChange}
-        maxLength={100}
+        maxLength={20}
         showCount
         autoSize
       />

@@ -42,13 +42,16 @@ class PopStage extends Component {
         </Stage>
 
         <Stage name="textarea输入框加计数器">
-          building...
           <Stage name="ybq">
             <ShiyeInputDemo4 />
           </Stage>
           <Stage name="zent">
             <ZentInputDemo4 />
           </Stage>
+        </Stage>
+
+        <Stage name="事件处理">
+          building...
         </Stage>
 
       </Stage>
