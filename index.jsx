@@ -3,10 +3,11 @@ import ReactDOM from 'react-dom';
 import 'zent/css/index.css';
 import './style.less';
 
-import ButtonStage from './stages/button-stage';
-import LayoutStage from './stages/layout-stage';
-import FormStage from './stages/form-stage';
-console.info(1234)
+import ButtonStage from './stages/button';
+import LayoutStage from './stages/layout';
+import FormStage from './stages/form';
+import PopStage from './stages/pop';
+console.info(12345)
 
 class Test extends Component {
   render() {
@@ -14,6 +15,7 @@ class Test extends Component {
       <ButtonStage />
       <LayoutStage />
       <FormStage />
+      <PopStage />
     </div>
   }
 }

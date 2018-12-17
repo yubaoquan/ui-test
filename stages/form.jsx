@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Stage from '../components/stage/index';
-import ZentFormDemo1 from '../form-demos/zent-demo-1';
-import ShiYeFormDemo1 from '../form-demos/shiye-demo-1';
+import ZentFormDemo1 from '../demos/form/zent-1';
+import ShiYeFormDemo1 from '../demos/form/shiye-1';
 
 class FormStage extends Component {
   render() {
