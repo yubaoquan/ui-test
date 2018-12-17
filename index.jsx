@@ -7,6 +7,7 @@ import ButtonStage from './stages/button';
 import LayoutStage from './stages/layout';
 import FormStage from './stages/form';
 import PopStage from './stages/pop';
+import InputStage from './stages/input';
 console.info(12345)
 
 class Test extends Component {
@@ -16,6 +17,7 @@ class Test extends Component {
       <LayoutStage />
       <FormStage />
       <PopStage />
+      <InputStage />
     </div>
   }
 }
