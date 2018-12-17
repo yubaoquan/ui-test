@@ -1,14 +1,14 @@
 import React, { Component } from "react";
 import { Input } from 'zent';
-import './style';
+import '../style';
 
 class ZentInputDemo1 extends Component {
   render() {
     return (
       <div>
-        <Input addonBefore="$" />
-        <Input addonAfter="%" />
-        <Input addonBefore="Buy" addonAfter="Apple" />
+        <Input placeholder="请输入名字" value="a" />
+        <Input type="password" placeholder="请输入密码" />
+        <Input className="foo" prefix="prprpr" />
       </div>
     );
   }

@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import { Input } from 'zent';
-import './style';
 
 class ZentInputDemo1 extends Component {
   render() {
