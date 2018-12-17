@@ -6,9 +6,7 @@ class ZentInputDemo1 extends Component {
   render() {
     return (
       <div>
-        <Input placeholder="请输入名字" value="a" />
-        <Input type="password" placeholder="请输入密码" />
-        <Input className="foo" prefix="prprpr" />
+        <Input type="textarea" addonAfter="xx" value={'abc'} placeholder="xxx" />
       </div>
     );
   }
