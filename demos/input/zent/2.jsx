@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Input } from 'zent';
 
-class ZentInputDemo1 extends Component {
+class ZentInputDemo2 extends Component {
   render() {
     return (
       <div>
@@ -13,4 +13,4 @@ class ZentInputDemo1 extends Component {
   }
 }
 
-export default ZentInputDemo1;
+export default ZentInputDemo2;

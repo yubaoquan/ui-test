@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import Input from '@ybq/ui/dist/input';
 import "@ybq/ui/dist/input/index.css";
 
-class ShiyeInputDemo1 extends Component {
+class ShiyeInputDemo2 extends Component {
   render() {
     return (
       <div>
@@ -14,4 +14,4 @@ class ShiyeInputDemo1 extends Component {
   }
 }
 
-export default ShiyeInputDemo1;
+export default ShiyeInputDemo2;
