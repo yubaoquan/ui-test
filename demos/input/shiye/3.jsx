@@ -6,7 +6,7 @@ class ShiyeInputDemo3 extends Component {
   render() {
     return (
       <div>
-        <Input type="textarea" placeholder="xxx" />
+        <Input type="textarea" placeholder="xxx" autoSize />
       </div>
     );
   }

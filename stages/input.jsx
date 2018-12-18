@@ -12,6 +12,7 @@ const stages = [
   { name: '显示清除按钮' },
   { name: '主动调用 focus 和 select 方法' },
   { name: '不可编辑状态' },
+  { name: 'autoFocus, autoSelect, initSelectStart, initSelectEnd' },
 ];
 
 class InputStage extends Component {

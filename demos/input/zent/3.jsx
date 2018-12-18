@@ -5,7 +5,7 @@ class ZentInputDemo3 extends Component {
   render() {
     return (
       <div>
-        <Input type="textarea" addonAfter="xx" placeholder="xxx" />
+        <Input type="textarea" addonAfter="xx" placeholder="xxx" autoSize />
       </div>
     );
   }
