@@ -30,7 +30,7 @@ class CommonStage extends Component {
           const ZentDemo = demos.zent[index];
           return (
             <Stage name={stage.name} key={stage.name}>
-            {stage.building && <span>building...</span>}
+              {stage.building && <span>building...</span>}
               <Stage name="ybq">
                 <ShiyeDemo />
               </Stage>

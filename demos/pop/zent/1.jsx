@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Pop, Button, Input } from 'zent';
 
+console.info(1)
 class ZentPopDemo1 extends Component {
   render() {
     return (
@@ -8,7 +9,7 @@ class ZentPopDemo1 extends Component {
         <Pop trigger="hover" content="鼠标移入触发方式">
           <Button type="primary">移入鼠标</Button>
         </Pop>
-        <Pop trigger="click" content="鼠标点击触发方式">
+        <Pop trigger="click" content="鼠标点击触发方式" className="aaa" wrapperClassName="bbb">
           <Button type="primary">点击鼠标</Button>
         </Pop>
         <Pop trigger="focus" content="获得输入焦点触发方式">
