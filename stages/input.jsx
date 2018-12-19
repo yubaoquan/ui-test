@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
-import Stage from '../components/stage';
 import inputDemos from '../demos/input';
-
+import CommonStage from './common';
 
 const stages = [
   { name: '基本用法' },
@@ -18,23 +17,7 @@ const stages = [
 class InputStage extends Component {
   render() {
     return (
-      <Stage name="input">
-        {stages.map((stage, index) => {
-          const ShiyeInputDemo = inputDemos.shiye[index];
-          const ZentInputDemo = inputDemos.zent[index];
-          return (
-            <Stage name={stage.name} key={stage.name}>
-            {stage.building && <span>building...</span>}
-              <Stage name="ybq">
-                <ShiyeInputDemo />
-              </Stage>
-              <Stage name="zent">
-                <ZentInputDemo />
-              </Stage>
-            </Stage>
-          );
-        })}
-      </Stage>
+      <CommonStage name="input" demos={inputDemos} stages={stages} />
     );
   }
 }

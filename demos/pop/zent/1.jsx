@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { Pop, Button, Input } from 'zent';
-import './style';
 
 class ZentPopDemo1 extends Component {
   render() {

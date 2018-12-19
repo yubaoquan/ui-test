@@ -1,20 +1,15 @@
 import React, { Component } from 'react';
-import Stage from '../components/stage';
-import { Pop, Button, Input } from 'zent';
-import ShiyePopDemo1 from '../demos/pop/shiye-1';
-import ZentPopDemo1 from '../demos/pop/zent-1';
+import CommonStage from './common';
+import popDemos from '../demos/pop';
+
+const stages = [
+  { name: '三种触发方式: 点击, 鼠标移入, 获得输入焦点' },
+];
 
 class PopStage extends Component {
   render() {
     return (
-      <Stage name="pop">
-        <Stage name="ybq">
-          <ShiyePopDemo1 />
-        </Stage>
-        <Stage name="zent">
-          <ZentPopDemo1 />
-        </Stage>
-      </Stage>
+      <CommonStage name="pop" demos={popDemos} stages={stages} />
     )
   }
 }
