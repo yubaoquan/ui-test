@@ -13,11 +13,11 @@ console.info(12345)
 class Test extends Component {
   render() {
     return <div>
-      <ButtonStage />
-      <LayoutStage />
+      {/* <ButtonStage /> */}
+      {/* <LayoutStage /> */}
       <FormStage />
       <PopStage />
-      <InputStage />
+      {/* <InputStage /> */}
     </div>
   }
 }

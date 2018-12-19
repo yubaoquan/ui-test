@@ -1,3 +1,49 @@
 .zent-popover-wrapper {
   margin-right: 10px;
 }
+
+.zent-doc-pop-positions {
+  position: relative;
+}
+
+.zent-doc-pop-positions-top-row, .zent-doc-pop-positions-bottom-row {
+  text-align: center;
+}
+
+.zent-doc-pop-positions-bottom-row {
+  margin-top: 200px;
+}
+
+
+.zent-doc-pop-positions-left-col,
+.zent-doc-pop-positions-right-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+
+.zent-doc-pop-positions-left-col {
+  left: 0;
+}
+
+.zent-doc-pop-positions-right-col {
+  right: 0;
+}
+
+.zent-doc-pop-positions-left-col .zent-pop-wrapper:not(:last-child),
+.zent-doc-pop-positions-left-col .shiye-pop-wrapper:not(:last-child),
+.zent-doc-pop-positions-right-col .zent-pop-wrapper:not(:last-child),
+.zent-doc-pop-positions-right-col .shiye-pop-wrapper:not(:last-child)
+{
+  margin-bottom: 10px;
+}
+
+.zent-doc-pop-positions   {
+  .zent-pop-wrapper .zent-btn,
+  .shiye-pop-wrapper .shiye-btn {
+    width: 100px;
+  }
+}

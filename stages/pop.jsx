@@ -4,6 +4,7 @@ import popDemos from '../demos/pop';
 
 const stages = [
   { name: '三种触发方式: 点击, 鼠标移入, 获得输入焦点' },
+  { name: '12种定位' },
 ];
 
 class PopStage extends Component {
