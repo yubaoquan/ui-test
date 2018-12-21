@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Pop, Button } from 'zent';
 
-const trigger = 'hover';
+const trigger = 'click';
 
 class ZentPopDemo2 extends Component {
   render() {

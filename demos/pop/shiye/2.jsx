@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Pop, Button } from '@ybq/ui';
 import '@ybq/ui/dist/index/index.css';
 
-const trigger = 'hover';
+const trigger = 'click';
 
 class ShiyePopDemo2 extends Component {
   render() {
