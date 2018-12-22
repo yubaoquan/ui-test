@@ -16,8 +16,8 @@ class Test extends Component {
       {/* <ButtonStage /> */}
       {/* <LayoutStage /> */}
       <FormStage />
-      <PopStage />
       {/* <InputStage /> */}
+      <PopStage />
     </div>
   }
 }
