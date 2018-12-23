@@ -2,6 +2,9 @@ import React, { Component } from 'react';
 import { Notify, Button } from 'zent';
 
 class NotifyZentDemo1 extends Component {
+  componentDidMount() {
+    // Notify.config({ duration: 10000 });
+  }
   render() {
     return (
       <div>
