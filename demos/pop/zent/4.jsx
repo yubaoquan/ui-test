@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Pop, Button } from 'zent';
+import { Pop, Button, Sweetalert } from 'zent';
 
 class ZentPopDemo4 extends Component {
   confirmHandler = () => {

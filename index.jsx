@@ -8,7 +8,7 @@ import LayoutStage from './stages/layout';
 import FormStage from './stages/form';
 import PopStage from './stages/pop';
 import InputStage from './stages/input';
-console.info(12345)
+import NotifyStage from './stages/notify';
 
 class Test extends Component {
   render() {
@@ -18,6 +18,7 @@ class Test extends Component {
       <FormStage />
       {/* <InputStage /> */}
       <PopStage />
+      <NotifyStage />
     </div>
   }
 }
