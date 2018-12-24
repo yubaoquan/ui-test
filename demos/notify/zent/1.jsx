@@ -10,6 +10,7 @@ class NotifyZentDemo1 extends Component {
       <div>
         <Button onClick={() => Notify.success('成功通知')}>成功通知</Button>
         <Button onClick={() => Notify.error('错误通知')}>错误通知</Button>
+        <Button onClick={() => Notify.clear()}>clear</Button>
       </div>
     )
   }
