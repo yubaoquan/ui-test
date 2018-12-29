@@ -9,6 +9,7 @@ import FormStage from './stages/form';
 import PopStage from './stages/pop';
 import InputStage from './stages/input';
 import NotifyStage from './stages/notify';
+import SweetAlertStage from './stages/sweet-alert';
 
 class Test extends Component {
   render() {
@@ -19,6 +20,7 @@ class Test extends Component {
       {/* <InputStage /> */}
       <PopStage />
       <NotifyStage />
+      <SweetAlertStage />
     </div>
   }
 }
