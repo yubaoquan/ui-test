@@ -8,9 +8,24 @@ class SweetAlertDemo1 extends Component {
       parentComponent: this
     });
   }
+  foo = () => {
+    SweetAlert.alert({
+      content: (
+        <div>
+          <Button onClick={this.foo}>mmm</Button>
+        </div>
+      ),
+      parentComponent: this
+    });
+  }
 
   render() {
-    return <Button onClick={this.showAlertInfo}>消息对话框</Button>;
+    return (
+      <>
+        <Button onClick={this.showAlertInfo}>消息对话框</Button>
+        <Button onClick={this.foo}>堆叠</Button>
+      </>
+    );
   }
 }
 
