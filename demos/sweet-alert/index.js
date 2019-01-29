@@ -1,6 +1,6 @@
 import './style';
 import { requireDemos } from '../util';
-const demoCount = 1;
+const demoCount = 2;
 
 export default {
   shiye: requireDemos('./sweet-alert/shiye', demoCount),
