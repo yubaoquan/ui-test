@@ -7788,6 +7788,7 @@ ol {
   }
 }
 
+
 @charset "UTF-8";
 @font-face {
   font-family: "shiye-font";
@@ -7841,6 +7842,7 @@ ol {
 .shiye-icon.icon-wrong:before {
   content: "\69";
 }
+
 
 .stage {
   position: relative;
@@ -8007,9 +8009,11 @@ ol {
   margin-left: 95.83333333%;
 }
 
+
 .shiye-form {
   background-color: #bbb;
 }
+
 
 .zent-popover-wrapper {
   margin-right: 10px;
@@ -8249,6 +8253,7 @@ ol {
   color: #fff;
   cursor: pointer;
 }
+
 
 
 @charset "UTF-8";
@@ -9050,8 +9055,6 @@ ol {
 }
 /* appear/disapear: 遮罩的透明度变化动效 */
 .shiye-sweetalert-container {
-  display: -webkit-box;
-  display: flex;
   -webkit-animation-name: appear;
   animation-name: appear;
   position: fixed;
@@ -9095,7 +9098,17 @@ ol {
   display: none;
 }
 .shiye-sweetalert-mount-point {
-  position: absolute;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: flex;
 }
 .shiye-sweetalert {
   display: inline-block;
@@ -9153,6 +9166,7 @@ ol {
     opacity: 0;
   }
 }
+
 
 
 
