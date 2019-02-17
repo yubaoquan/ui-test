@@ -27,7 +27,7 @@ class ShiyeButtonDemo1 extends Component {
           <br />
           <br />
           <YButton.Group>
-            <YButton type="primary" icon="share">分享</YButton>
+            <YButton type="primary" icon="share-alt">分享</YButton>
             <YButton type="primary" icon="download">下载</YButton>
           </YButton.Group>
         </section>
@@ -39,7 +39,7 @@ class ShiyeButtonDemo1 extends Component {
 
         <section className="section">
           <YButton.Group prefix="foo" className="bar" style={{opacity: .5}}>
-            <YButton type="primary" icon="share">分享</YButton>
+            <YButton type="primary" icon="share-alt">分享</YButton>
             <YButton type="primary" icon="download">下载</YButton>
           </YButton.Group>
           <YButton block >block btn</YButton>

@@ -14,7 +14,7 @@ class SDemo extends Component {
             <span>
               用户名&nbsp;
               <Pop trigger="hover" content="用户名用于个人账号登录" centerArrow>
-                <Icon type="error-circle-o" />
+                <Icon type="alert-circle-o" />
               </Pop>:
             </span>
           }

@@ -35,7 +35,7 @@ class ShiyeButtonDemo1 extends Component {
           <Button href="https://baidu.com" target="_blank">新窗口打开</Button>
           <Button icon="search">搜索</Button>
           <Button><Icon type="check" className="iii" />保存</Button>
-          <Button>下一步<Icon type="next" /></Button>
+          <Button>下一步<Icon type="chevron-right" /></Button>
         </section>
       </>
     );
