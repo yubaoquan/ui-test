@@ -1,9 +1,9 @@
 import { Sweetalert, Button } from 'zent';
 
 class SweetAlertDemo6 extends React.Component {
-  showAlertConfirm = () => {
+  showAlertConfirm = (confirmType = 'primary') => {
     Sweetalert.confirm({
-      confirmType: 'danger',
+      confirmType,
       confirmText: '删除',
       cancelText: '取消',
       content: '确认删除吗？',
@@ -12,8 +12,21 @@ class SweetAlertDemo6 extends React.Component {
     });
   }
 
+  showDangerConfirm = () => this.showAlertConfirm('danger');
+  showSuccessConfirm = () => this.showAlertConfirm('success');
+  showDefaultConfirm = () => this.showAlertConfirm('default');
+  showPrimaryConfirm = () => this.showAlertConfirm();
+
+
   render() {
-    return <Button onClick={this.showAlertConfirm} type="danger">删除</Button>;
+    return (
+      <>
+        <Button onClick={this.showDangerConfirm}>danger</Button>
+        <Button onClick={this.showSuccessConfirm}>success</Button>
+        <Button onClick={this.showDefaultConfirm}>default</Button>
+        <Button onClick={this.showPrimaryConfirm}>primary</Button>
+      </>
+    );
   }
 }
 

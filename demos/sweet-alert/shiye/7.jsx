@@ -6,7 +6,8 @@ class SweetAlertDemo7 extends React.Component {
       closeBtn: true,
       maskClosable: true,
       content: '这个是具体内容',
-      parentComponent: this
+      parentComponent: this,
+      onCancel: () => console.info('on cancel'),
     });
   }
 
