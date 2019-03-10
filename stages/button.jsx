@@ -6,12 +6,14 @@ import ShiyeButtonDemo1 from '../demos/button/shiye-1';
 import ShiyeButtonDemo2 from '../demos/button/shiye-2';
 import ZentButtonDemo1 from '../demos/button/zent-1';
 import ZentButtonDemo2 from '../demos/button/zent-2';
-
+import code from './button-code.txt';
+console.info(code);
 class ButtonStage extends Component {
   render() {
+
     return (
       <Stage name="button">
-        <Stage name="ybq">
+        <Stage name="ybq" code={code}>
           <ShiyeButtonDemo1 />
           <ShiyeButtonDemo2 />
         </Stage>

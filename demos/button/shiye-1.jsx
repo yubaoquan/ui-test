@@ -10,7 +10,7 @@ class ShiyeButtonDemo1 extends Component {
       <>
         <Button></Button>
         <Button className="abc" onClick={e => console.info(`btn click`, e)}>按钮</Button>
-        <Button htmlType="xxx">按钮钮</Button>
+        <Button htmlType="button">按钮钮</Button>
         <Button><span>按</span><span>钮</span></Button>
 
         <section className="section">

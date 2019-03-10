@@ -1,10 +1,9 @@
 import React, { Component } from 'react';
 import YButton from '@ybq/ui/dist/button';
-import YIcon from '@ybq/ui/dist/icon';
 import '@ybq/ui/dist/button/index.css';
 import '@ybq/ui/dist/icon/index.css';
 
-class ShiyeButtonDemo1 extends Component {
+class ShiyeButtonDemo2 extends Component {
   render() {
     return (
       <>
@@ -49,4 +48,4 @@ class ShiyeButtonDemo1 extends Component {
   }
 }
 
-export default ShiyeButtonDemo1;
+export default ShiyeButtonDemo2;
